@@ -1,0 +1,158 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #ddd;
+    background-color: #121212;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  
+  /* Hero Section */
+  #hero {
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  #hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+  
+  #hero h3 {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 2rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00adb5;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #007d80;
+  }
+  
+  /* About Me Section */
+  #about {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #about h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  #about p {
+    font-size: 1.2rem;
+    color: #bbb;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Resume Section */
+  #resume {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #resume h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  #resume p {
+    font-size: 1.2rem;
+    color: #bbb;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    font-size: 1.2rem;
+    color: #bbb;
+    margin-bottom: 20px;
+  }
+  
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #contact form input, #contact form textarea {
+    width: 80%;
+    max-width: 600px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border: none;
+    color: #ddd;
+  }
+  
+  #contact form button {
+    padding: 10px 20px;
+    background-color: #00adb5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #contact form button:hover {
+    background-color: #007d80;
+  }
+  /* Responsive iframe for the form */
+iframe {
+    width: 100%;
+    border: none;
+    height: 600px;
+    background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    #contact h2 {
+        font-size: 1.8rem;
+    }
+}

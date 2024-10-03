@@ -1,0 +1,56 @@
+/* Projects Page Styles */
+body {
+    background-color: #121212; /* Consistent dark background */
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+  
+  #projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    min-height: 50vh; 
+    padding: 20px;
+  }
+  
+  .project-card {
+    background-color: #1e1e1e;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s;
+    width: 60%;
+  }
+  
+  .project-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .project-card h3 {
+    margin: 15px 0;
+    font-size: 1.5rem;
+    color: #00adb5;
+  }
+  
+  .project-card p {
+    font-size: 1rem;
+    color: #bbb;
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
